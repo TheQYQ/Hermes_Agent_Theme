@@ -1,0 +1,135 @@
+name: pikachu-volt
+description: "Pikachu Volt — electric-type yellow terminal with pixel Pikachu"
+
+colors:
+  # Base surface — warm dark
+  background: "#12100A"
+  ui_accent: "#FFD400"
+  banner_accent: "#FFD400"
+  banner_title: "#FFE97A"
+  banner_text: "#FFF3C4"
+  ui_text: "#FFF3C4"
+  banner_dim: "#B8860B"
+  banner_border: "#7A5C14"
+  ui_border: "#7A5C14"
+  ui_ok: "#9BE84A"
+  ui_warn: "#FFB84D"
+  ui_error: "#F0543C"
+  prompt: "#FFF3C4"
+  input_rule: "#FFD400"
+  response_border: "#FFD400"
+  status_bar_bg: "#1C1808"
+  status_bar_text: "#FFF3C4"
+  status_bar_good: "#9BE84A"
+  status_bar_warn: "#FFB84D"
+  status_bar_bad: "#FFD400"
+  status_bar_critical: "#F0543C"
+  session_label: "#FFE97A"
+  session_border: "#7A5C14"
+  voice_status_bg: "#1C1808"
+  completion_menu_bg: "#12100A"
+  completion_menu_current_bg: "#2A230C"
+  completion_menu_meta_bg: "#12100A"
+  completion_menu_meta_current_bg: "#3A3010"
+  diff_added: "#9BE84A"
+  diff_removed: "#F0543C"
+  diff_added_word: "#B8F57A"
+  diff_removed_word: "#FF8A70"
+  syntax_string: "#FFE97A"
+  syntax_number: "#9BE84A"
+  syntax_keyword: "#FFB84D"
+  syntax_comment: "#8A7A3A"
+
+spinner:
+  thinking_faces:
+    - '[⚡]'
+    - '(⚡)'
+    - '[⚡]'
+    - '(☀)'
+    - '[☀]'
+    - '(⚡)'
+  thinking_verbs:
+    - CHARGING THUNDERBOLT
+    - PIKA PI PIKA
+    - ELECTRIC TYPE ENGAGED
+    - STORING VOLTS
+    - SPARKING IDEAS
+    - AGILITY MODE
+    - THUNDER WAVE READY
+  waiting_faces:
+    - '(⚡)'
+    - '(☀)'
+    - '(⚡)'
+    - '(⭐)'
+  wings:
+    - [⚡, ⚡]
+    - [☀, ☀]
+    - [⭐, ⭐]
+
+branding:
+  agent_name: "Pikachu Agent"
+  goodbye: "PIKA PI... :: RETURNING TO THE FIELDS"
+  help_header: "⚡ VOLT DIRECTIVE — Available Commands"
+  prompt_symbol: "⚡ "
+  response_label: " ⚡ PIKA COMMAND "
+  welcome: "[bold #FFE97A]P[/][bold #FFD400]I[/][bold #FFB84D]K[/][bold #FFA000]A[/][bold #FFD400] [/][bold #FFE97A]P[/][bold #FFB84D]I[/] [#F0543C]·[/] [bold #FFD400]VOLT TYPE[/]"
+
+prompt_symbol: "⚡ "
+
+tool_prefix: '│'
+
+tool_emojis:
+  terminal: '⚡'
+  read_file: '▪'
+  write_file: '⚡'
+  search_files: '◉'
+  web_search: '☆'
+  web_fetch: '☉'
+  patch: '▫'
+  skills_list: '⭐'
+  skill_view: '☆'
+  vision_analyze: '◉'
+  text_to_speech: '●'
+  todo: '□'
+  memory: '⚡'
+  cronjob: '◐'
+
+banner_logo: |2
+  [bold #FFE97A]P[/][bold #FFD400]I[/][bold #FFB84D]K[/][bold #FFA000]A[/][bold #FFD400] [/][bold #FFE97A]P[/][bold #FFB84D]I[/]  [#F0543C]·[/] [#FFD400]electric-type · volt rodent[/]
+
+banner_hero: |2
+              [bold #FFB84D]████[/]                          [bold #5C3324]████████[/]
+        [bold #FFB84D]████[/]  [bold #FFB84D]████[/]                      [bold #5C3324]██████████[/]
+        [bold #FFB84D]████[/]    [bold #FFB84D]██[/]                    [bold #5C3324]██[/][bold #FFE712]████[/][bold #5C3324]██████[/]
+  [bold #FFB84D]████[/]    [bold #FFB84D]████[/]                    [bold #5C3324]████[/][bold #FFE712]██████[/][bold #FFB84D]██[/][bold #5C3324]██[/]
+  [bold #FFB84D]██████[/]    [bold #FFB84D]██[/]                [bold #5C3324]████[/][bold #FFB84D]████[/][bold #FFE712]████[/][bold #FFB84D]████[/][bold #5C3324]██[/]    [bold #F0543C]████[/]
+    [bold #FFB84D]██████[/]              [bold #5C3324]██████[/][bold #FFE712]██████████[/][bold #FFB84D]████[/][bold #5C3324]██[/]      [bold #F0543C]████[/]  [bold #F0543C]████[/]
+        [bold #FFB84D]██[/]          [bold #5C3324]████[/][bold #FFE712]██████████████████[/][bold #5C3324]████[/]      [bold #F0543C]██████████[/]
+                  [bold #5C3324]██[/][bold #FFE712]████████████████████████[/][bold #5C3324]██[/]      [bold #F0543C]████████[/]
+                [bold #5C3324]██[/][bold #FFB84D]██[/][bold #FFE712]████████████████████[/][bold #5C3324]██[/][bold #FFE712]████[/][bold #5C3324]██[/]      [bold #F0543C]██[/]
+              [bold #5C3324]██[/][bold #FFB84D]██[/][bold #FFE712]████████████████████[/][bold #5C3324]██[/]  [bold #5C3324]██[/][bold #FFE712]██[/][bold #5C3324]██[/]
+            [bold #5C3324]██[/][bold #FFB84D]██[/][bold #FFE712]██████████████████████[/][bold #5C3324]██████[/][bold #FFE712]██[/][bold #FFB84D]██[/][bold #5C3324]██[/]
+          [bold #5C3324]██[/][bold #FFB84D]████[/][bold #FFE712]██████[/][bold #5C3324]██[/][bold #FFE712]██████████████[/][bold #5C3324]████[/][bold #FFE712]██[/][bold #F0543C]████[/][bold #FFB84D]██[/][bold #5C3324]██[/]    [bold #5C3324]████████[/]
+        [bold #5C3324]██[/][bold #FFE712]████[/][bold #FFB84D]██[/][bold #FFE712]████[/][bold #5C3324]██[/]  [bold #5C3324]██[/][bold #FFE712]██████[/][bold #5C3324]██[/][bold #FFE712]██████████[/][bold #F0543C]██████[/][bold #5C3324]██████[/][bold #FFE712]██[/][bold #FFB84D]██████[/][bold #5C3324]██[/]
+      [bold #5C3324]██[/][bold #FFE712]████[/][bold #FFB84D]██[/][bold #FFE712]██████[/][bold #5C3324]██████[/][bold #FFE712]██████████[/][bold #F0543C]██[/][bold #FFE712]██████[/][bold #F0543C]██████[/][bold #5C3324]██[/][bold #FFE712]██████[/][bold #FFB84D]██[/][bold #FFE712]██[/][bold #FFB84D]████[/][bold #5C3324]██[/]
+    [bold #5C3324]████[/][bold #FFE712]██[/][bold #FFB84D]████[/][bold #FFE712]██████[/][bold #5C3324]████[/][bold #FFE712]████████[/][bold #F0543C]████[/][bold #FFE712]██████████[/][bold #FFB84D]████[/][bold #5C3324]██[/][bold #FFE712]██████[/][bold #FFB84D]██[/][bold #FFE712]████[/][bold #FFB84D]████[/][bold #5C3324]██[/]
+    [bold #5C3324]████[/][bold #FFB84D]████[/][bold #5C3324]██[/][bold #FFB84D]██[/][bold #FFE712]██[/][bold #F0543C]████[/][bold #FFE712]██████[/][bold #F0543C]████████[/][bold #FFE712]██████████[/][bold #FFB84D]██[/][bold #5C3324]████[/][bold #FFE712]██████[/][bold #FFB84D]██[/][bold #FFE712]██[/][bold #FFB84D]██████[/][bold #5C3324]████[/]
+  [bold #5C3324]██████████[/]  [bold #5C3324]██[/][bold #F0543C]██████[/][bold #FFE712]██████████[/][bold #F0543C]████[/][bold #FFE712]████████[/][bold #FFB84D]██[/][bold #5C3324]██[/][bold #FFB84D]████[/][bold #5C3324]██[/][bold #FFE712]████[/][bold #FFB84D]██████[/][bold #5C3324]████[/]
+  [bold #5C3324]██████[/]      [bold #5C3324]██[/][bold #F0543C]██████[/][bold #FFB84D]██[/][bold #FFE712]██████████████████[/][bold #FFB84D]████[/][bold #5C3324]██[/][bold #FFB84D]████[/][bold #5C3324]██[/][bold #FFE712]██[/][bold #FFB84D]██████[/][bold #5C3324]██[/]
+  [bold #5C3324]██[/]          [bold #5C3324]██[/][bold #FFB84D]██[/][bold #5C3324]████[/][bold #FFB84D]██[/][bold #FFE712]██████████████[/][bold #FFB84D]██████[/][bold #5C3324]██[/][bold #FFE712]██[/][bold #FFB84D]██[/][bold #5C3324]██[/][bold #FFB84D]████████[/][bold #5C3324]██[/]
+                [bold #5C3324]██[/][bold #FFE712]████[/][bold #5C3324]██[/][bold #FFB84D]██[/][bold #FFE712]██████[/][bold #FFB84D]████████████[/][bold #FFE712]██[/][bold #FFB84D]████[/][bold #5C3324]██[/][bold #FFB84D]██████[/][bold #5C3324]██[/]
+                [bold #5C3324]██[/][bold #FFB84D]██[/][bold #FFE712]██[/][bold #5C3324]██[/][bold #FFB84D]████████████████████████████[/][bold #5C3324]██[/][bold #FFB84D]██████[/][bold #5C3324]██[/]
+                [bold #5C3324]██[/][bold #FFB84D]████[/][bold #FFE712]██[/][bold #5C3324]██[/][bold #FFB84D]██████████████████████████[/][bold #5C3324]██[/][bold #FFB84D]██[/][bold #5C3324]██████[/]
+                  [bold #5C3324]██[/][bold #FFB84D]██████[/][bold #FFE712]██[/][bold #FFB84D]██████████████[/][bold #FFE712]██████[/][bold #FFB84D]████[/][bold #5C3324]████████[/]
+                    [bold #5C3324]██[/][bold #FFB84D]████[/][bold #FFE712]████[/][bold #FFB84D]██████████[/][bold #FFE712]████████[/][bold #FFB84D]██████[/][bold #5C3324]████[/]
+                    [bold #5C3324]████[/][bold #FFE712]████████████████████████[/][bold #FFB84D]██████[/][bold #5C3324]████[/]
+                    [bold #5C3324]██████[/][bold #FFE712]████████████████████████[/][bold #FFB84D]████[/][bold #5C3324]██[/]
+                    [bold #5C3324]██[/][bold #FFB84D]██[/][bold #FFE712]██████████████████████████[/][bold #FFB84D]████[/][bold #5C3324]██[/]
+                    [bold #5C3324]████[/][bold #FFE712]██████████████████████████[/][bold #FFB84D]████[/][bold #5C3324]██[/]
+                    [bold #5C3324]██████[/][bold #FFE712]████████[/][bold #FFB84D]██████[/][bold #FFE712]██████████[/][bold #FFB84D]██[/][bold #5C3324]██[/]
+                      [bold #5C3324]██[/][bold #FFB84D]██[/][bold #FFE712]██████[/][bold #FFB84D]██████████[/][bold #FFE712]██████[/][bold #FFB84D]████[/][bold #5C3324]██[/]
+                      [bold #5C3324]████████████[/]        [bold #5C3324]██[/][bold #FFB84D]██████[/][bold #5C3324]██[/]
+                        [bold #5C3324]██[/][bold #FFB84D]████[/][bold #5C3324]████[/]        [bold #5C3324]██[/][bold #FFB84D]████[/][bold #5C3324]██[/]
+                          [bold #5C3324]██████[/]          [bold #5C3324]██████[/]
+                          [bold #5C3324]██████[/]          [bold #5C3324]██[/]  [bold #5C3324]██[/]
+

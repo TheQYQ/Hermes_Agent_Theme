@@ -1,0 +1,111 @@
+name: kyogre-tide
+description: "Kyogre Tide — water-type blue terminal with pixel Kyogre"
+
+colors:
+  background: "#0A0E16"
+  ui_accent: "#5A8CFF"
+  banner_accent: "#5A8CFF"
+  banner_title: "#A8C4FF"
+  banner_text: "#D5E2F5"
+  ui_text: "#D5E2F5"
+  banner_dim: "#4A608A"
+  banner_border: "#2E4470"
+  ui_border: "#2E4470"
+  ui_ok: "#6FE0C8"
+  ui_warn: "#F0C837"
+  ui_error: "#E85A5A"
+  prompt: "#D5E2F5"
+  input_rule: "#5A8CFF"
+  response_border: "#5A8CFF"
+  status_bar_bg: "#0E1420"
+  status_bar_text: "#D5E2F5"
+  status_bar_good: "#6FE0C8"
+  status_bar_warn: "#F0C837"
+  status_bar_bad: "#5A8CFF"
+  status_bar_critical: "#E85A5A"
+  session_label: "#A8C4FF"
+  session_border: "#4A608A"
+  voice_status_bg: "#0E1420"
+  completion_menu_bg: "#0A0E16"
+  completion_menu_current_bg: "#121A2A"
+  completion_menu_meta_bg: "#0A0E16"
+  completion_menu_meta_current_bg: "#1A2638"
+  diff_added: "#6FE0C8"
+  diff_removed: "#E85A5A"
+  diff_added_word: "#98ECD8"
+  diff_removed_word: "#F09090"
+  syntax_string: "#A8C4FF"
+  syntax_number: "#6FE0C8"
+  syntax_keyword: "#5A8CFF"
+  syntax_comment: "#4A608A"
+
+spinner:
+  thinking_faces:
+    - '[≈]'
+    - '(≈)'
+    - '[≈]'
+    - '(≈)'
+    - '[≈]'
+    - '(≈)'
+  thinking_verbs:
+    - PRIMORDIAL SEA RISING
+    - DRIZZLE BECOMES STORM
+    - ORIGIN PULSE READY
+    - TIDAL SURGE INCOMING
+    - OCEAN TYPE ENGAGED
+    - CALMING THE WAVES
+    - SHEER COLD CHARGED
+  waiting_faces:
+    - '(≈)'
+    - '(≈)'
+    - '(≈)'
+    - '(≈)'
+  wings:
+    - [≈, ≈]
+    - [≈, ≈]
+    - [≈, ≈]
+
+branding:
+  agent_name: "Kyogre Agent"
+  goodbye: "RETURNING TO THE ABYSSAL TRENCH :: DRIZZLE FADES"
+  help_header: "≈ TIDE DIRECTIVE — Available Commands"
+  prompt_symbol: "≈ "
+  response_label: " ≈ TIDE COMMAND "
+  welcome: "[bold #6090D8]K[/][bold #5A8CFF]Y[/][bold #4C6FD4]O[/][bold #6090D8]G[/][bold #5A8CFF]R[/][bold #4C6FD4]E[/] [#FFD940]·[/] [bold #5A8CFF]TIDE TYPE[/]"
+
+prompt_symbol: "≈ "
+
+tool_prefix: '│'
+
+tool_emojis:
+  terminal: '≈'
+  read_file: '▪'
+  write_file: '≈'
+  search_files: '◉'
+  web_search: '✦'
+  web_fetch: '☉'
+  patch: '▫'
+  skills_list: '⭐'
+  skill_view: '☆'
+  vision_analyze: '◉'
+  text_to_speech: '●'
+  todo: '□'
+  memory: '≈'
+  cronjob: '◐'
+
+banner_logo: |2
+  [bold #6090D8]K[/][bold #5A8CFF]Y[/][bold #4C6FD4]O[/][bold #6090D8]G[/][bold #5A8CFF]R[/][bold #4C6FD4]E[/]  [#FFD940]·[/] [#5A8CFF]water-type · primordial sea[/]
+
+banner_hero: |2
+               [bold #3A5470]▄[/][bold #3A5470 on #E85A5A]▀[/][bold #3A5470 on #E85A5A]▀[/][bold #3A5470]▄[/]    [bold #3A5470]▄[/][bold #3A5470]▄[/][bold #3A5470]▄[/]
+    [bold #3A5470]▄[/][bold #3A5470]▄[/][bold #3A5470]▄[/]      [bold #3A5470]▄[/][bold #3A5470 on #E85A5A]▀[/][bold #E85A5A on #4C6FD4]▀[/][bold #304890 on #304890]▀[/][bold #304890 on #E85A5A]▀[/][bold #E85A5A on #3A5470]▀[/][bold #3A5470 on #3A5470]▀[/][bold #3A5470]▄[/][bold #3A5470 on #304890]▀[/][bold #3A5470 on #304890]▀[/][bold #4C6FD4 on #304890]▀[/][bold #4C6FD4 on #3A5470]▀[/][bold #4C6FD4 on #3A5470]▀[/][bold #3A5470]▀[/]
+  [bold #3A5470]▄[/][bold #3A5470 on #C8C8C8]▀[/][bold #C8C8C8 on #304890]▀[/][bold #6090D8 on #304890]▀[/][bold #C8C8C8 on #E85A5A]▀[/][bold #3A5470 on #304890]▀[/][bold #3A5470]▄[/] [bold #3A5470]▄[/][bold #3A5470]▄[/][bold #3A5470 on #4C6FD4]▀[/][bold #304890 on #4C6FD4]▀[/][bold #304890 on #4C6FD4]▀[/][bold #304890 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #304890 on #4C6FD4]▀[/][bold #E85A5A on #304890]▀[/][bold #E85A5A on #304890]▀[/][bold #3A5470 on #304890]▀[/][bold #304890 on #E85A5A]▀[/][bold #304890 on #E85A5A]▀[/][bold #3A5470 on #304890]▀[/][bold #3A5470]▄[/][bold #3A5470]▄[/][bold #3A5470]▄[/]  [bold #3A5470]▄[/][bold #3A5470]▄[/][bold #3A5470]▄[/]
+  [bold #3A5470]▀[/][bold #304890 on #3A5470]▀[/][bold #E85A5A on #304890]▀[/][bold #E85A5A on #304890]▀[/][bold #304890 on #E85A5A]▀[/][bold #E85A5A on #304890]▀[/][bold #304890 on #304890]▀[/][bold #3A5470 on #6090D8]▀[/][bold #6090D8 on #6090D8]▀[/][bold #6090D8 on #6090D8]▀[/][bold #6090D8 on #6090D8]▀[/][bold #4C6FD4 on #6090D8]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #E85A5A]▀[/][bold #E85A5A on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #E85A5A on #304890]▀[/][bold #304890 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #3A5470 on #3A5470]▀[/][bold #3A5470]▄[/][bold #3A5470 on #4C6FD4]▀[/][bold #4C6FD4 on #304890]▀[/][bold #304890 on #4C6FD4]▀[/][bold #304890 on #4C6FD4]▀[/][bold #3A5470 on #4C6FD4]▀[/][bold #3A5470 on #3A5470]▀[/]
+     [bold #3A5470]▀[/][bold #3A5470]▀[/][bold #3A5470 on #3A5470]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #6090D8 on #4C6FD4]▀[/][bold #6090D8 on #C8C8C8]▀[/][bold #6090D8 on #F5F5F5]▀[/][bold #C8C8C8 on #F5F5F5]▀[/][bold #F5F5F5 on #F5F5F5]▀[/][bold #C8C8C8 on #F5F5F5]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #E85A5A on #E85A5A]▀[/][bold #E85A5A on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #F5F5F5]▀[/][bold #4C6FD4 on #F5F5F5]▀[/][bold #F5F5F5 on #C8C8C8]▀[/][bold #304890 on #3A5470]▀[/][bold #4C6FD4 on #3A5470]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #3A5470]▀[/][bold #3A5470]▀[/][bold #3A5470]▀[/]
+      [bold #3A5470 on #3A5470]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #F5F5F5 on #4C6FD4]▀[/][bold #F5F5F5 on #4C6FD4]▀[/][bold #F5F5F5 on #4C6FD4]▀[/][bold #C8C8C8 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #F5F5F5]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #E85A5A on #4C6FD4]▀[/][bold #4C6FD4 on #304890]▀[/][bold #C8C8C8 on #3A5470]▀[/][bold #3A5470]▀[/][bold #3A5470]▀[/]  [bold #3A5470]▀[/][bold #3A5470]▀[/][bold #3A5470]▀[/][bold #3A5470]▀[/]
+      [bold #3A5470]▀[/][bold #E85A5A on #3A5470]▀[/][bold #4C6FD4 on #E85A5A]▀[/][bold #4C6FD4 on #E85A5A]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #E85A5A]▀[/][bold #E85A5A on #3A5470]▀[/][bold #E85A5A on #FFD940]▀[/][bold #E85A5A on #E85A5A]▀[/][bold #4C6FD4 on #E85A5A]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #E85A5A on #4C6FD4]▀[/][bold #3A5470 on #4C6FD4]▀[/][bold #3A5470]▄[/][bold #3A5470]▄[/][bold #3A5470]▄[/][bold #3A5470]▄[/]
+        [bold #3A5470]▀[/][bold #C8C8C8 on #3A5470]▀[/][bold #E85A5A on #3A5470]▀[/][bold #E85A5A on #C8C8C8]▀[/][bold #E85A5A on #C8C8C8]▀[/][bold #E85A5A on #C8C8C8]▀[/][bold #3A5470 on #C8C8C8]▀[/][bold #E85A5A on #C8C8C8]▀[/][bold #C8C8C8 on #3A5470]▀[/][bold #C8C8C8 on #3A5470]▀[/][bold #304890 on #3A5470]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #E85A5A on #4C6FD4]▀[/][bold #E85A5A on #4C6FD4]▀[/][bold #4C6FD4 on #E85A5A]▀[/][bold #4C6FD4 on #E85A5A]▀[/][bold #3A5470 on #304890]▀[/][bold #3A5470 on #C8C8C8]▀[/][bold #3A5470]▄[/]
+           [bold #3A5470]▀[/][bold #3A5470]▀[/][bold #3A5470]▀[/][bold #3A5470]▀[/][bold #3A5470]▀[/]   [bold #3A5470]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #4C6FD4 on #4C6FD4]▀[/][bold #E85A5A on #E85A5A]▀[/][bold #E85A5A on #E85A5A]▀[/][bold #4C6FD4 on #E85A5A]▀[/][bold #4C6FD4 on #304890]▀[/][bold #304890 on #304890]▀[/][bold #304890 on #C8C8C8]▀[/][bold #3A5470 on #3A5470]▀[/]
+                    [bold #3A5470]▀[/][bold #4C6FD4 on #3A5470]▀[/][bold #304890 on #3A5470]▀[/][bold #304890 on #F5F5F5]▀[/][bold #304890 on #F5F5F5]▀[/][bold #304890 on #3A5470]▀[/][bold #F5F5F5 on #3A5470]▀[/][bold #3A5470]▀[/]
+                       [bold #3A5470]▀[/][bold #3A5470]▀[/]
+

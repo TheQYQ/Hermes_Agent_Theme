@@ -1,0 +1,140 @@
+name: gengar-shadow
+description: "Gengar Shadow — ghost-type purple terminal with pixel Gengar banner"
+
+colors:
+  # Base surface — deep dark purple
+  background: "#0F0A1A"
+
+  # Brand accent — Gengar purple
+  ui_accent: "#9B59B6"
+  banner_accent: "#9B59B6"
+
+  # Text hierarchy
+  banner_title: "#BB8FCE"
+  banner_text: "#D7BDE2"
+  ui_text: "#D7BDE2"
+  banner_dim: "#7D3C98"
+  banner_border: "#4A235A"
+  ui_border: "#4A235A"
+
+  # Semantic status
+  ui_ok: "#58D68D"
+  ui_warn: "#F5B041"
+  ui_error: "#EC7063"
+
+  # CLI / TUI chrome
+  prompt: "#D7BDE2"
+  input_rule: "#9B59B6"
+  response_border: "#9B59B6"
+  status_bar_bg: "#1A0F2E"
+  status_bar_text: "#D7BDE2"
+  status_bar_good: "#58D68D"
+  status_bar_warn: "#F5B041"
+  status_bar_bad: "#9B59B6"
+  status_bar_critical: "#EC7063"
+  session_label: "#BB8FCE"
+  session_border: "#4A235A"
+
+  # Voice status
+  voice_status_bg: "#1A0F2E"
+
+  # Completion menu
+  completion_menu_bg: "#0F0A1A"
+  completion_menu_current_bg: "#1A0F2E"
+  completion_menu_meta_bg: "#0F0A1A"
+  completion_menu_meta_current_bg: "#2D1B4E"
+
+  # Diff colors
+  diff_added: "#58D68D"
+  diff_removed: "#EC7063"
+  diff_added_word: "#82E0AA"
+  diff_removed_word: "#F1948A"
+
+  # Syntax highlighting
+  syntax_string: "#85C1E9"
+  syntax_number: "#F7DC6F"
+  syntax_keyword: "#BB8FCE"
+  syntax_comment: "#7D3C98"
+
+spinner:
+  thinking_faces:
+    - '[◈]'
+    - '[◉]'
+    - '[◎]'
+    - '[●]'
+    - '[○]'
+    - '[◈]'
+  thinking_verbs:
+    - CHANNELING SPIRITS
+    - ENTERING SHADOW REALM
+    - HAUNTING PROTOCOLS
+    - GHOST TYPE ENGAGED
+    - AWAITING COMMANDS
+    - PHANTOM ACTIVE
+    - ACKNOWLEDGE
+    - SHADOW PROTOCOL
+    - DEPLOYING CURSES
+  waiting_faces:
+    - (◆)
+    - (◇)
+    - (●)
+    - (◎)
+    - (○)
+    - (◆)
+  wings:
+    - [◈, ◈]
+    - [◉, ◉]
+    - [◎, ◎]
+
+branding:
+  agent_name: "Gengar Agent"
+  goodbye: "RETURNING TO THE SHADOW REALM :: GONE BUT NOT FORGOTTEN"
+  help_header: "◈ SHADOW DIRECTIVE — Available Commands"
+  prompt_symbol: "◈ "
+  response_label: ' ◉ SHADOW COMMAND '
+  welcome: '[bold #7D3C98]G[/][bold #8E44AD]E[/][bold #9B59B6]N[/][bold #A569BD]G[/][bold #BB8FCE]A[/][bold #C39BD3]R[/] [#EC7063]·[/] [#F5B041]S[/][bold #BB8FCE]H[/][bold #A569BD]A[/][bold #9B59B6]D[/][bold #8E44AD]O[/][bold #7D3C98]W[/]'
+
+tool_prefix: '│'
+
+tool_emojis:
+  terminal: '▓'
+  read_file: '▒'
+  write_file: '█'
+  search_files: '◎'
+  web_search: '◈'
+  web_fetch: '◉'
+  patch: '▪'
+  skills_list: '◆'
+  skill_view: '◇'
+  vision_analyze: '◎'
+  text_to_speech: '●'
+  todo: '□'
+  memory: '◈'
+  cronjob: '◐'
+
+banner_logo: |2
+  [bold #BB8FCE]G[/][bold #A569BD]E[/][bold #9B59B6]N[/][bold #8E44AD]G[/][bold #7D3C98]A[/][bold #4A235A]R[/] [#EC7063]·[/] [bold #9B59B6]S[/][bold #8E44AD]H[/][bold #7D3C98]A[/][bold #4A235A]D[/][bold #3B2069]O[/][bold #2E1A47]W[/]  [#7D3C98]ghost-type · shadow realm[/]
+
+banner_hero: |2
+        [bold #3B2069]██[/][bold #A32BE8]████[/][bold #3B2069]████[/]      [bold #3B2069]████[/]                [bold #3B2069]██████[/]
+          [bold #3B2069]██[/][bold #A32BE8]██████[/][bold #3B2069]██[/]  [bold #3B2069]██[/][bold #C182FC]██[/][bold #3B2069]██[/]  [bold #3B2069]████[/]      [bold #3B2069]████[/][bold #C182FC]██[/][bold #A32BE8]██[/][bold #3B2069]██[/]
+          [bold #3B2069]██[/][bold #A32BE8]████████[/][bold #3B2069]██[/][bold #C182FC]████[/][bold #3B2069]████[/][bold #C182FC]██[/][bold #3B2069]██[/]  [bold #3B2069]████[/][bold #C182FC]████[/][bold #A32BE8]██[/][bold #3B2069]██[/]
+          [bold #3B2069]██[/][bold #A32BE8]██████[/][bold #3B2069]██[/][bold #C182FC]██████[/][bold #3B2069]██[/][bold #C182FC]████[/][bold #3B2069]████[/][bold #C182FC]██████[/][bold #A32BE8]████[/][bold #3B2069]██[/]
+            [bold #3B2069]████[/][bold #C182FC]██████████████[/][bold #3B2069]████[/][bold #C182FC]██████[/][bold #A32BE8]████[/][bold #3B2069]██[/]
+            [bold #3B2069]██[/][bold #C182FC]████████████████[/][bold #A32BE8]████[/][bold #C182FC]██[/][bold #A32BE8]████████[/][bold #3B2069]██[/]
+          [bold #3B2069]██[/][bold #A32BE8]██[/][bold #C182FC]██████████████[/][bold #A32BE8]██████████████[/][bold #3B2069]██[/]
+      [bold #3B2069]████[/][bold #FB2073]██[/][bold #A32BE8]████[/][bold #C182FC]████████[/][bold #A32BE8]████████████████[/][bold #3B2069]██[/][bold #A32BE8]██[/][bold #3B2069]████[/]
+    [bold #3B2069]██[/][bold #A32BE8]██[/][bold #3B2069]██[/][bold #FB2073]████[/][bold #A32BE8]██████████████[/][bold #FB2073]████[/][bold #A32BE8]██████████████[/][bold #3B2069]██[/]
+  [bold #3B2069]██[/][bold #A32BE8]████[/][bold #3B2069]██[/][bold #FB2073]██[/][bold #3B2069]██[/][bold #A32BE8]██████████[/][bold #FB2073]██████[/][bold #A32BE8]████████[/][bold #3B2069]██[/][bold #A32BE8]████[/][bold #3B2069]██[/]
+  [bold #3B2069]██[/][bold #A32BE8]████[/][bold #3B2069]██[/][bold #A32BE8]██████████[/][bold #FB2073]██[/][bold #3B2069]██[/][bold #FB2073]██████[/][bold #A32BE8]██████████[/][bold #3B2069]██[/][bold #A32BE8]████[/][bold #3B2069]██[/]
+    [bold #3B2069]████████[/][bold #A32BE8]██████████[/][bold #FB2073]██████[/][bold #A32BE8]██████████████[/][bold #3B2069]██[/][bold #A32BE8]████[/][bold #3B2069]██[/]
+        [bold #3B2069]██[/][bold #F7F3FF]██[/][bold #3B2069]████[/][bold #A32BE8]████████████[/][bold #3B2069]████[/][bold #A32BE8]████████████[/][bold #3B2069]████[/]
+          [bold #3B2069]██[/][bold #F7F3FF]████[/][bold #3B2069]████████████[/][bold #F7F3FF]██[/][bold #A32BE8]████████████[/][bold #3B2069]██[/][bold #A32BE8]██[/][bold #3B2069]██[/]
+          [bold #3B2069]██[/][bold #A32BE8]██[/][bold #F7F3FF]██████████████[/][bold #A32BE8]██████[/][bold #3B2069]████[/][bold #A32BE8]██████[/][bold #3B2069]██[/]
+            [bold #3B2069]██[/][bold #A32BE8]██[/][bold #F7F3FF]██████████[/][bold #A32BE8]████████████[/][bold #3B2069]████████[/]
+            [bold #3B2069]████[/][bold #A32BE8]██████████████████████████[/][bold #3B2069]██[/][bold #A32BE8]██[/][bold #3B2069]██[/]
+            [bold #3B2069]██[/][bold #A32BE8]██[/][bold #3B2069]████[/][bold #A32BE8]██████████████████████[/][bold #3B2069]██[/][bold #A32BE8]████[/][bold #3B2069]██[/]
+              [bold #3B2069]██[/][bold #A32BE8]████[/][bold #3B2069]████[/][bold #A32BE8]████████████████[/][bold #3B2069]██[/][bold #A32BE8]██[/][bold #3B2069]████[/]
+                [bold #3B2069]██████[/]  [bold #3B2069]██████[/][bold #A32BE8]██[/][bold #3B2069]████████████████[/]
+                              [bold #3B2069]██████████████████[/]
+                                [bold #3B2069]██████[/]

@@ -1,0 +1,114 @@
+name: rayquaza-sky
+description: "Rayquaza Sky — dragon-type green terminal with pixel Rayquaza"
+
+colors:
+  background: "#0A120D"
+  ui_accent: "#6FE08A"
+  banner_accent: "#6FE08A"
+  banner_title: "#A8F0B0"
+  banner_text: "#D8F5DC"
+  ui_text: "#D8F5DC"
+  banner_dim: "#3A6B4A"
+  banner_border: "#2E5A3C"
+  ui_border: "#2E5A3C"
+  ui_ok: "#6FE08A"
+  ui_warn: "#F0C837"
+  ui_error: "#E66473"
+  prompt: "#D8F5DC"
+  input_rule: "#6FE08A"
+  response_border: "#6FE08A"
+  status_bar_bg: "#0E1810"
+  status_bar_text: "#D8F5DC"
+  status_bar_good: "#6FE08A"
+  status_bar_warn: "#F0C837"
+  status_bar_bad: "#4CAF6D"
+  status_bar_critical: "#E66473"
+  session_label: "#A8F0B0"
+  session_border: "#3A6B4A"
+  voice_status_bg: "#0E1810"
+  completion_menu_bg: "#0A120D"
+  completion_menu_current_bg: "#14261A"
+  completion_menu_meta_bg: "#0A120D"
+  completion_menu_meta_current_bg: "#1C3324"
+  diff_added: "#6FE08A"
+  diff_removed: "#E66473"
+  diff_added_word: "#98F0AC"
+  diff_removed_word: "#F0909C"
+  syntax_string: "#A8F0B0"
+  syntax_number: "#F0C837"
+  syntax_keyword: "#6FE08A"
+  syntax_comment: "#3A6B4A"
+
+spinner:
+  thinking_faces:
+    - '[◆]'
+    - '(◇)'
+    - '[◆]'
+    - '(◇)'
+    - '[✦]'
+    - '(◇)'
+  thinking_verbs:
+    - SKY HIGH ASCENT
+    - AIR LOCK ACTIVE
+    - DRAGON TYPE ENGAGED
+    - HYPER BEAM CHARGED
+    - OZONE FILTER ON
+    - DRAGON ASPERSING
+    - RIDING THE JET STREAM
+  waiting_faces:
+    - '(◇)'
+    - '(◆)'
+    - '(◇)'
+    - '(✦)'
+  wings:
+    - [◆, ◆]
+    - [◇, ◇]
+    - [✦, ✦]
+
+branding:
+  agent_name: "Rayquaza Agent"
+  goodbye: "RETURNING TO THE OZONE LAYER :: SKY HIGH"
+  help_header: "◆ SKY DIRECTIVE — Available Commands"
+  prompt_symbol: "◆ "
+  response_label: " ◆ SKY COMMAND "
+  welcome: "[bold #6FE08A]R[/][bold #52B86A]A[/][bold #8FDF9F]Y[/][bold #6FE08A]Q[/][bold #52B86A]U[/][bold #8FDF9F]A[/][bold #6FE08A]Z[/][bold #52B86A]A[/] [#F0C837]·[/] [bold #6FE08A]SKY HIGH[/]"
+
+prompt_symbol: "◆ "
+
+tool_prefix: '│'
+
+tool_emojis:
+  terminal: '◆'
+  read_file: '▪'
+  write_file: '◆'
+  search_files: '◉'
+  web_search: '✦'
+  web_fetch: '☉'
+  patch: '▫'
+  skills_list: '⭐'
+  skill_view: '☆'
+  vision_analyze: '◉'
+  text_to_speech: '●'
+  todo: '□'
+  memory: '◆'
+  cronjob: '◐'
+
+banner_logo: |2
+  [bold #6FE08A]R[/][bold #52B86A]A[/][bold #8FDF9F]Y[/][bold #6FE08A]Q[/][bold #52B86A]U[/][bold #8FDF9F]A[/][bold #6FE08A]Z[/][bold #52B86A]A[/]  [#F0C837]·[/] [#6FE08A]dragon-type · sky high[/]
+
+banner_hero: |2
+     [bold #3D5A47]▄[/][bold #3D5A47 on #52B86A]▀[/][bold #3D5A47]▄[/]
+     [bold #3D5A47 on #3D5A47]▀[/][bold #52B86A on #52B86A]▀[/][bold #3D5A47 on #52B86A]▀[/][bold #3D5A47]▄[/]        [bold #3D5A47]▄[/][bold #3D5A47 on #F5F5F5]▀[/][bold #3D5A47 on #8FDF9F]▀[/][bold #3D5A47 on #3D5A47]▀[/]
+     [bold #3D5A47]▀[/][bold #52B86A on #3D5A47]▀[/][bold #52B86A on #52B86A]▀[/][bold #3D5A47 on #3D5A47]▀[/]    [bold #3D5A47]▄[/][bold #3D5A47]▄[/][bold #3D5A47]▄[/][bold #3D5A47 on #8FDF9F]▀[/][bold #F5F5F5 on #8FDF9F]▀[/][bold #8FDF9F on #3D5A47]▀[/][bold #3D5A47]▀[/]   [bold #3D5A47]▄[/]
+     [bold #3D5A47]▄[/][bold #3D5A47 on #3D5A47]▀[/][bold #52B86A on #52B86A]▀[/][bold #52B86A on #3E8A57]▀[/][bold #3D5A47 on #3D5A47]▀[/] [bold #3E8A57]▄[/][bold #3D5A47 on #8FDF9F]▀[/][bold #52B86A on #8FDF9F]▀[/][bold #8FDF9F on #3E8A57]▀[/][bold #8FDF9F on #3E8A57]▀[/][bold #8FDF9F on #3E8A57]▀[/][bold #3D5A47 on #F0C837]▀[/][bold #3D5A47]▄[/][bold #3D5A47]▄[/]  [bold #3D5A47 on #3D5A47]▀[/][bold #E66473 on #E66473]▀[/][bold #3D5A47 on #3D5A47]▀[/]  [bold #3D5A47]▄[/][bold #3D5A47]▄[/]
+    [bold #3D5A47 on #3D5A47]▀[/][bold #52B86A on #F0C837]▀[/][bold #8FDF9F on #52B86A]▀[/][bold #3E8A57 on #52B86A]▀[/][bold #52B86A on #F0C837]▀[/][bold #52B86A on #3E8A57]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #8FDF9F on #52B86A]▀[/][bold #8FDF9F on #52B86A]▀[/][bold #8FDF9F on #52B86A]▀[/][bold #8FDF9F on #52B86A]▀[/][bold #52B86A on #52B86A]▀[/][bold #F0C837 on #52B86A]▀[/][bold #F0C837 on #F0C837]▀[/][bold #8FDF9F on #F0C837]▀[/][bold #8FDF9F on #F0C837]▀[/][bold #3D5A47 on #F0C837]▀[/][bold #3D5A47 on #8FDF9F]▀[/][bold #3E8A57 on #8FDF9F]▀[/][bold #E66473 on #3E8A57]▀[/][bold #3D5A47 on #E66473]▀[/][bold #3D5A47]▄[/][bold #3D5A47 on #E66473]▀[/][bold #E66473 on #52B86A]▀[/][bold #E66473 on #52B86A]▀[/][bold #3D5A47 on #E66473]▀[/][bold #3D5A47]▄[/]
+   [bold #3D5A47 on #3D5A47]▀[/][bold #3E8A57 on #8FDF9F]▀[/][bold #8FDF9F on #52B86A]▀[/][bold #F0C837 on #8FDF9F]▀[/][bold #F0C837 on #3E8A57]▀[/][bold #3E8A57 on #3D5A47]▀[/][bold #8FDF9F on #F0C837]▀[/][bold #8FDF9F on #3E8A57]▀[/][bold #52B86A on #3E8A57]▀[/][bold #52B86A on #52B86A]▀[/][bold #52B86A on #52B86A]▀[/][bold #52B86A on #52B86A]▀[/][bold #52B86A on #52B86A]▀[/][bold #52B86A on #52B86A]▀[/][bold #52B86A on #3D5A47]▀[/][bold #3E8A57 on #3D5A47]▀[/][bold #3E8A57 on #52B86A]▀[/][bold #F0C837 on #52B86A]▀[/][bold #F0C837 on #3E8A57]▀[/][bold #F0C837 on #3E8A57]▀[/][bold #8FDF9F on #3E8A57]▀[/][bold #3D5A47 on #3E8A57]▀[/][bold #3E8A57 on #52B86A]▀[/][bold #52B86A on #3E8A57]▀[/][bold #52B86A on #3E8A57]▀[/][bold #52B86A on #3E8A57]▀[/][bold #52B86A on #3E8A57]▀[/][bold #E66473 on #52B86A]▀[/][bold #3D5A47 on #3D5A47]▀[/]
+  [bold #3D5A47 on #3D5A47]▀[/][bold #8FDF9F on #8FDF9F]▀[/][bold #52B86A on #8FDF9F]▀[/][bold #8FDF9F on #8FDF9F]▀[/][bold #3E8A57 on #8FDF9F]▀[/][bold #3E8A57 on #52B86A]▀[/][bold #F0C837 on #3E8A57]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #3E8A57 on #E66473]▀[/][bold #8FDF9F on #E66473]▀[/][bold #52B86A on #3E8A57]▀[/][bold #8FDF9F on #8FDF9F]▀[/][bold #3E8A57 on #8FDF9F]▀[/][bold #3E8A57 on #8FDF9F]▀[/][bold #3D5A47 on #3D5A47]▀[/][bold #F5F5F5 on #F5F5F5]▀[/][bold #3D5A47 on #F5F5F5]▀[/][bold #3D5A47 on #3D5A47]▀[/][bold #3E8A57 on #8FDF9F]▀[/][bold #52B86A on #3E8A57]▀[/][bold #52B86A on #3E8A57]▀[/][bold #3E8A57 on #8FDF9F]▀[/][bold #8FDF9F on #52B86A]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #3E8A57 on #8FDF9F]▀[/][bold #8FDF9F on #F5F5F5]▀[/][bold #8FDF9F on #8FDF9F]▀[/][bold #3E8A57 on #8FDF9F]▀[/][bold #3D5A47 on #3D5A47]▀[/]
+  [bold #3D5A47]▀[/][bold #8FDF9F on #3D5A47]▀[/][bold #52B86A on #3D5A47]▀[/][bold #3E8A57 on #F5F5F5]▀[/][bold #3E8A57 on #E66473]▀[/][bold #E66473 on #3E8A57]▀[/][bold #E66473 on #3E8A57]▀[/][bold #E66473 on #3E8A57]▀[/][bold #E66473 on #52B86A]▀[/][bold #3E8A57 on #3D5A47]▀[/][bold #3E8A57 on #3D5A47]▀[/][bold #3D5A47 on #3D5A47]▀[/][bold #8FDF9F on #3D5A47]▀[/][bold #8FDF9F on #8FDF9F]▀[/][bold #8FDF9F on #8FDF9F]▀[/][bold #3D5A47 on #3E8A57]▀[/][bold #3D5A47 on #3E8A57]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #8FDF9F on #3E8A57]▀[/][bold #8FDF9F on #52B86A]▀[/][bold #52B86A on #52B86A]▀[/][bold #52B86A on #52B86A]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #8FDF9F on #3E8A57]▀[/][bold #52B86A on #8FDF9F]▀[/][bold #52B86A on #8FDF9F]▀[/][bold #8FDF9F on #3E8A57]▀[/][bold #3D5A47 on #3D5A47]▀[/]
+     [bold #3D5A47]▀[/][bold #3D5A47]▀[/][bold #3D5A47]▀[/][bold #3D5A47]▀[/][bold #3D5A47]▀[/][bold #3D5A47]▀[/]  [bold #3D5A47]▄[/][bold #3D5A47 on #3D5A47]▀[/][bold #3D5A47 on #3E8A57]▀[/][bold #8FDF9F on #3E8A57]▀[/][bold #8FDF9F on #3E8A57]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #52B86A on #52B86A]▀[/][bold #52B86A on #3E8A57]▀[/][bold #52B86A on #3E8A57]▀[/][bold #3E8A57 on #52B86A]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #8FDF9F on #8FDF9F]▀[/][bold #3D5A47 on #3D5A47]▀[/]
+            [bold #3D5A47 on #3D5A47]▀[/][bold #3E8A57 on #3D5A47]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #3E8A57 on #52B86A]▀[/][bold #3E8A57 on #52B86A]▀[/][bold #3E8A57 on #52B86A]▀[/][bold #3E8A57 on #3D5A47]▀[/][bold #3D5A47 on #F5F5F5]▀[/][bold #3D5A47 on #F5F5F5]▀[/][bold #3D5A47 on #3D5A47]▀[/][bold #3E8A57 on #52B86A]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #F5F5F5 on #3E8A57]▀[/][bold #8FDF9F on #52B86A]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #3E8A57 on #8FDF9F]▀[/][bold #52B86A on #8FDF9F]▀[/][bold #52B86A on #8FDF9F]▀[/][bold #3D5A47 on #3D5A47]▀[/]
+            [bold #3D5A47]▀[/][bold #3D5A47 on #3D5A47]▀[/][bold #52B86A on #52B86A]▀[/][bold #52B86A on #52B86A]▀[/][bold #52B86A on #F0C837]▀[/][bold #52B86A on #F0C837]▀[/][bold #52B86A on #52B86A]▀[/][bold #3D5A47 on #52B86A]▀[/][bold #3D5A47 on #52B86A]▀[/][bold #52B86A on #52B86A]▀[/][bold #3E8A57 on #F0C837]▀[/][bold #F5F5F5 on #3E8A57]▀[/][bold #3E8A57 on #3E8A57]▀[/][bold #52B86A on #F5F5F5]▀[/][bold #8FDF9F on #52B86A]▀[/][bold #52B86A on #3E8A57]▀[/][bold #3E8A57 on #52B86A]▀[/][bold #3D5A47 on #3E8A57]▀[/][bold #3D5A47]▄[/]
+             [bold #3D5A47]▀[/][bold #3D5A47 on #3D5A47]▀[/][bold #52B86A on #3D5A47]▀[/][bold #52B86A on #52B86A]▀[/][bold #F0C837 on #52B86A]▀[/][bold #F0C837 on #F0C837]▀[/][bold #52B86A on #F0C837]▀[/][bold #F0C837 on #52B86A]▀[/][bold #F0C837 on #52B86A]▀[/][bold #52B86A on #3D5A47]▀[/][bold #F0C837 on #3D5A47]▀[/][bold #3D5A47]▀[/][bold #3D5A47]▀[/][bold #3D5A47 on #3D5A47]▀[/][bold #52B86A on #3E8A57]▀[/][bold #52B86A on #52B86A]▀[/][bold #3E8A57 on #52B86A]▀[/][bold #E66473 on #3E8A57]▀[/][bold #3D5A47 on #E66473]▀[/][bold #3D5A47]▄[/]
+                [bold #3D5A47]▀[/][bold #3D5A47]▀[/][bold #3D5A47]▀[/][bold #3D5A47]▀[/][bold #3D5A47]▀[/][bold #3D5A47]▀[/]    [bold #3D5A47]▀[/][bold #3E8A57 on #3D5A47]▀[/][bold #3E8A57 on #3D5A47]▀[/][bold #52B86A on #3D5A47]▀[/][bold #3E8A57 on #52B86A]▀[/][bold #52B86A on #3D5A47]▀[/][bold #E66473 on #3D5A47]▀[/][bold #3D5A47 on #3D5A47]▀[/]
+                              [bold #3D5A47]▀[/][bold #3D5A47]▀[/]
+
