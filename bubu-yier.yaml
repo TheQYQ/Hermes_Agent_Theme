@@ -1,5 +1,5 @@
-name: bubu-dudu
-description: "Bubu & Dudu — two little bears sharing one blue blanket on a rainy day"
+name: bubu-yier
+description: "Bubu & Yier — two little bears sharing one blue blanket on a rainy day"
 
 colors:
   background: "#0E1420"
@@ -66,12 +66,12 @@ spinner:
     - [~, ~]
 
 branding:
-  agent_name: "Bubu & Dudu Agent"
+  agent_name: "Bubu & Yier Agent"
   goodbye: "RAIN STOPPED :: FOLDING THE BLANKET, SEE YOU TOMORROW"
   help_header: "~ COZY DIRECTIVE - Available Commands"
   prompt_symbol: "~ "
   response_label: " ~ RAINY DAY "
-  welcome: "[bold #C97B4A]B[/][bold #D98A55]U[/][bold #C97B4A]B[/][bold #B56A3D]U[/] [#8FC3E8]&[/] [bold #F5F3F6]D[/][bold #E8E4EC]U[/][bold #F5F3F6]D[/][bold #E8E4EC]U[/] [#F08CA4]·[/] [bold #8FC3E8]RAINY DAY[/]"
+  welcome: "[bold #C97B4A]B[/][bold #D98A55]U[/][bold #C97B4A]B[/][bold #B56A3D]U[/] [#8FC3E8]&[/] [bold #F5F3F6]Y[/][bold #E8E4EC]I[/][bold #F5F3F6]E[/][bold #E8E4EC]R[/] [#F08CA4]·[/] [bold #8FC3E8]RAINY DAY[/]"
 
 prompt_symbol: "~ "
 
@@ -94,7 +94,7 @@ tool_emojis:
   cronjob: '('
 
 banner_logo: |2
-  [bold #C97B4A]B[/][bold #D98A55]U[/][bold #C97B4A]B[/][bold #B56A3D]U[/] [#8FC3E8]&[/] [bold #F5F3F6]D[/][bold #E8E4EC]U[/][bold #F5F3F6]D[/][bold #E8E4EC]U[/]  [#F08CA4]·[/] [#8FC3E8]rainy day · together under one blanket[/]
+  [bold #C97B4A]B[/][bold #D98A55]U[/][bold #C97B4A]B[/][bold #B56A3D]U[/] [#8FC3E8]&[/] [bold #F5F3F6]Y[/][bold #E8E4EC]I[/][bold #F5F3F6]E[/][bold #E8E4EC]R[/]  [#F08CA4]·[/] [#8FC3E8]rainy day · together under one blanket[/]
 
 banner_hero: |2
               [bold #5A3226]▄[/][bold #5A3226]▄[/][bold #5A3226]▄[/][bold #5A3226 on #8FC3E8]▀[/][bold #5A3226 on #8FC3E8]▀[/][bold #5A3226 on #8FC3E8]▀[/][bold #8FC3E8]▄[/][bold #8FC3E8]▄[/][bold #5A3226]▄[/]
