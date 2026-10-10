@@ -61,6 +61,8 @@
 
 ```
 .
+├── LICENSE               MIT 许可证
+├── .gitignore            忽略规则（系统/编辑器临时文件）
 ├── README.md             本文件
 ├── kanto-team.yaml       初代梦之队主题
 ├── gengar-shadow.yaml    耿鬼紫主题
@@ -76,4 +78,6 @@
 
 ## License
 
-个人创作，可自由使用与二次定制。
+[MIT](LICENSE) — 可自由使用、修改与二次分发，保留版权声明即可。
+
+主题中的宝可梦角色名称与形象归 The Pokémon Company / Nintendo 等权利人所有，仅作个人粉丝创作与配色示意；一二布布系列同理由原作者持有形象版权。
